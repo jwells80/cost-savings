@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cost Savings</title>
+	<link rel="stylesheet" href="_css/bootstrap.min.css">
+	<link rel="stylesheet" href="_css/style.css">
+	<script src="_js/jquery.js"></script>
+	<script src="_js/bootstrap.min.js"></script>
+	<script src="_js/jqueryTemplate.min.js"></script>
+	<script src="_js/functions.js"></script>
+	<script src="_js/app.js"></script>
+	<script src="http://use.edgefonts.net/comfortaa:n4,n3,n7:all;droid-sans-mono:n4:all.js"></script>
+</head>
+<body>
+	<div id="messages"></div>
+	<div class="container">
+		<header>
+			<h1 class="text-center">Johnston Companies<br><small>Cost Savings</small></h1>
+			<ul class="nav nav-tabs" role="tablist">
+				<li class="active"><a href="#dataTab" role="tab" data-toggle="tab">Customers</a></li>
+				<li><a href="#newCustomer" id="newCustomerTab" role="tab" data-toggle="tab">New Customer</a></li>
+				<li><a href="#update" id="updateTab" role="tab" data-toggle="tab">Update Customer</a></li>
+				<li><a href="#cost" id="costTab" role="tab" data-toggle="tab">Cost Savings</a></li>
+			</ul>
+		</header>
+	</div>
+	<div class="container tab-content">
+		<!-- Customer Tab -->
+		<div class="row tab-pane active" id="dataTab">
+			<div class="">
+				<form id="retrieve">
+					<div class="col-sm-6">
+					<label for="searchby" class="control-label">Search by:
+						<select name="searchby" id="request"class="form-control">
+							<option value="cono">Company Number</option>
+							<option value="custno">Customer Number</option>
+						</select>
+					</label>
+					<label for="requestVal" class="control-label">
+						<input type="text" name="requestVal" id="requestVal" class="form-control">
+					</label>
+					<input type="submit"  value="LookUp" id="submit-form" class="btn btn-default">
+					<input type="reset" value="Refresh" class="btn btn-default" id="refreshdata">
+					</div>
+				</form>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="data">
+						<table class="table table-striped">
+							<thead>
+								<th></th>
+								<th></th>
+								<th>Comp. No.</th>
+								<th>Cust. No.</th>
+								<th>Cust. Name</th>
+								<th>Contact</th>
+								<th>Address</th>
+								<th>City</th>
+								<th>State</th>
+								<th>Zip</th>
+								<th>Rep Name</th>
+								<th class="hideRepNo">RepNo</th>
+							</thead>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div><!-- Customer Tab -->
+		<!-- New Customer Tab -->	
+		<div class="row tab-pane" id="newCustomer">
+			<div id="insertError" class="panel panel-danger errors-div">
+				<div class="panel-heading">Error</div>
+				<div class="panel-body">Please check your inputs</div>
+			</div>
+			<form id="newCustData" role="form">
+				<label for="rep" class="control-label col-sm-4">Rep Name
+					<select name="rep" id="rep" class="form-control" autocomplete="off">
+					</select>
+				</label>
+				<label for="cono" class="control-label col-sm-4">Company Number
+					<select name="cono" id="cono" class="form-control" autocomplete="off">
+					</select>
+				</label>
+				<label for="custno" class="control-label col-sm-12">Customer Number<input type="text" name="custno" id="custno" class="form-control"></label>
+				<label for="custname" class="control-label col-sm-12">Customer Name<input type="text" name="custname" id="custname" class="form-control"></label>
+				<label for="contact" class="control-label col-sm-12">Contact<input type="text" name="contact" id="contact" class="form-control"></label>
+				<label for="address" class="control-label col-sm-12">Address<input type="text" name="address" id="address" class="form-control"></label>
+				<label for="city" class="control-label col-sm-4">City<input type="text" name="city" id="city" class="form-control"></label>
+				<label for="state" class="control-label col-sm-4">State<input type="text" name="state" id="state" class="form-control"></label>
+				<label for="zip" class="control-label col-sm-4">Zip<input type="text" name="zip" id="zip" class="form-control"></label>
+				<div class="col-sm-12">
+					<input type="submit" value="Submit" class="btn btn-default">
+				</div>
+			</form>
+		</div><!-- New Customer Tab -->
+		<!-- Update Customer Tab -->		
+		<div class="tab-pane" id="update">
+			<h4><small>Company No.:</small> <span id="conoUpdate"></span></h4>
+			<h4><small>Customer No.:</small> <span id="custnoUpdate"></span></h4>
+			<hr>
+			<form role="form">
+				<div id="updateError" class="panel panel-danger errors-div">
+					<div class="panel-heading">Error</div>
+					<div class="panel-body">Please Check your inputs and try again.</div>
+				</div>
+
+				<label for="custnameUpdate" class="control-label">Customer Name<input type="text" id="custnameUpdate" class="form-control"></label>
+				<label for="contactUpdate" class="control-label">Contact<input type="text" id="contactUpdate" class="form-control"></label>
+				<label for="addressUpdate" class="control-label">Address<input type="text" id="addressUpdate" class="form-control"></label>
+				<label for="cityUpdate" class="control-label">City<input type="text" id="cityUpdate" class="form-control"></label>
+				<label for="stateUpdate" class="control-label">State<input type="text" id="stateUpdate" class="form-control"></label>
+				<label for="zipUpdate"class="control-label">Zip<input type="text" id="zipUpdate" class="form-control"></label>
+				<label for="repUpdate"class="control-label">Rep Name<select name="repUpdate" id="repUpdate" class="form-control" autocomplete="off">
+					</select></label>
+				<input type="submit" id="dataUpdate" class="btn btn-default">
+			</form>	
+		</div><!-- Update Customer Tab -->
+		<!-- Cost Savings Tab -->
+		<div class="tab-pane" id="cost">
+			<h4><small>Customer Name:</small> <span id="custnameCost"></span></h4>
+			<h4><small>Company No.:</small> <span id="conoCost"></span></h4>
+			<h4><small>Customer No.:</small> <span id="custnoCost"></span></h4>
+			<hr>
+			<table id="savingslist" class="table table-striped">
+				<thead>
+					<th></th>
+					<th>Type</th>
+					<th>Department</th>
+					<th>Description</th>
+					<th>Date Entered</th>
+					<th>Date Updated</th>
+					<th class="hideRepNo">typeID</th>
+					<th class="hideRepNo">cshedID</th>
+				</thead>
+			</table>
+			<div id="newCostMessage"></div>
+			<form role="form" id="newCostForm">
+				<div id="savingsError" class="panel panel-danger errors-div">
+					<div class="panel-heading">Error</div>
+					<div class="panel-body">Please Check your inputs and try again.</div>
+				</div>
+				<label for="type" class="control-label col-sm-4">Type
+					<select name="type" id="savTypeSel" class="form-control" autocomplete="off">
+					</select>
+				</label>
+				<label for="dept" class="control-label col-sm-12">Department<input type="text" id="dept" class="form-control"></label>
+				<label for="description" class="control-label col-sm-12">Description<textarea id="description" class="form-control col-sm-12" rows="6"></textarea></label>
+				<input type="hidden" id="cshedID">
+				<br>
+				<div class="col-sm-12">
+					<input type="submit" id="costUpdate" value="Update" class="btn btn-default">
+					<input type="submit" id="newCostSav" value="Submit New" class="btn btn-default">
+				</div>
+			</form>
+		</div><!-- Cost Savings Tab -->
+
+	</div><!-- Container -->
+</body>
+</html>

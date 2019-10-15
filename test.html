@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cost Savings</title>
+	<link rel="stylesheet" href="_css/bootstrap.min.css">
+	<link rel="stylesheet" href="_css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="_js/bootstrap.min.js"></script>
+	<script src="_js/jqueryTemplate.min.js"></script>
+	<script src="_js/app.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<h1 class="text-center">Johnston Companies<br><small>Cost Savings</small></h1>
+			<ul class="nav nav-tabs" role="tablist">
+				<li class="active"><a href="#inputTab" role="tab" data-toggle="tab">Input</a></li>
+				<li><a href="#dataTab" role="tab" data-toggle="tab">Data</a></li>
+				<li><a href="#update" role="tab" data-toggle="tab">Update</a></li>
+			</ul>
+		</header>
+	</div>
+	
+	<div class="container tab-content">
+		<div class="row tab-pane active" id="inputTab">
+			<div id="errors" class="panel panel-danger">
+				<div class="panel-heading">Error</div>
+				<div class="panel-body">Please check your inputs</div>
+			</div>
+			<form id="inputdata" role="form">
+				<div class="col-sm-4">
+					<label for="cono" class="control-label">Company Number<input type="text" name="cono" id="cono" class="form-control"></label>
+				</div>
+				<div class="col-sm-4">
+					<label for="custno" class="control-label">Customer Number<input type="text" name="custno" id="custno" class="form-control"></label>
+				</div>
+				<div class="col-sm-4">
+					<label for="address" class="control-label">Address<input type="text" name="address" id="address" class="form-control"></label>
+				</div>
+				<div class="col-sm-4">
+					<label for="city" class="control-label">City<input type="text" name="city" id="city" class="form-control"></label>
+				</div>
+				<div class="col-sm-4">
+					<label for="state" class="control-label">State<input type="text" name="state" id="state" class="form-control"></label>
+				</div>
+				<div class="col-sm-4">
+					<label for="zip" class="control-label">Zip<input type="text" name="zip" id="zip" class="form-control"></label>
+				</div>
+				<div class="col-sm-4">
+					<input type="submit" value="Submit" class="btn btn-default">
+				</div>
+			</form>
+		</div><br>
+		<div class="tab-pane" id="dataTab">
+			<div class="row">
+				<form id="retrieve">
+					<div class="col-sm-6">
+					<label for="searchby" class="control-label">Search by:
+						<select name="searchby" id="request"class="form-control">
+							<option value="cono">Company Number</option>
+							<option value="custno">Customer Number</option>
+						</select>
+					</label>
+					<label for="requestVal" class="control-label">
+						<input type="text" name="requestVal" id="requestVal" class="form-control">
+					</label>
+					<input type="submit"  value="LookUp" id="submit-form" class="btn btn-default">
+					<input type="reset" value="Refresh" class="btn btn-default" id="refreshdata">
+					</div>
+				</form>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="data">
+						<table class="table table-striped">
+							<thead>
+								<th></th>
+								<th>Company Number</th>
+								<th>Customer Number</th>
+								<th>Address</th>
+								<th>City</th>
+								<th>State</th>
+								<th>Zip</th>
+							</thead>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tab-pane" id="update">
+			<form role="form">
+				<label for="conoUpdate" class="control-label">Company Number<input type="text" id="conoUpdate" class="form-control"></label>
+				<label for="custnoUpdate" class="control-label">Customer Number<input type="text" id="custnoUpdate" class="form-control"></label>
+				<label for="addressUpdate" class="control-label">Address<input type="text" id="addressUpdate" class="form-control"></label>
+				<label for="cityUpdate" class="control-label">City<input type="text" id="cityUpdate" class="form-control"></label>
+				<label for="stateUpdate" class="control-label">State<input type="text" id="stateUpdate" class="form-control"></label>
+				<label for="zipUpdate"class="control-label">Zip<input type="text" id="zipUpdate" class="form-control"></label>
+				<input type="submit" id="dataPull" class="btn btn-default">
+			</form>	
+		</div>
+	</div>
+
+</body>
+</html>

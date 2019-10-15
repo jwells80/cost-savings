@@ -1,0 +1,18 @@
+.hideRepNo {
+	display:none;
+}
+/* #newCostForm textarea {
+	width:100%;
+} */
+body {
+  
+    
+}
+header h1 {
+    background: url(../_images/Johnston-Companies.png) no-repeat 15%;
+    height: 100px;
+    font-family: comfortaa, arial, sans-serif;
+}
+#data td:nth-child(1n+3) {
+    font-family:  droid-sans-mono, Consolas;
+}

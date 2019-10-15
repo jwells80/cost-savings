@@ -1,0 +1,648 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"js",
+				"json_response"
+			],
+			[
+				"row",
+				"row_array"
+			],
+			[
+				"pull",
+				"pullResult"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"re",
+				"requestVal"
+			],
+			[
+				"cono",
+				"cono"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"p",
+				"preventDefault"
+			],
+			[
+				"request",
+				"requestVal"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"en",
+				"encodedResult"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"mysql_re",
+				"mysql_real_escape_string"
+			],
+			[
+				"mysq",
+				"mysql_close"
+			],
+			[
+				"mysql_e",
+				"mysql_error"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"dis",
+				"dishDesc"
+			],
+			[
+				"dish",
+				"dish"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pa",
+				"panel"
+			],
+			[
+				"header",
+				"headerClass"
+			],
+			[
+				"tab",
+				"tab-group"
+			],
+			[
+				"de",
+				"deactivateAllTabs"
+			],
+			[
+				"tab-cont",
+				"tab-content-1"
+			],
+			[
+				"tab-con",
+				"tab-content"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"ta",
+				"tabHeaders"
+			],
+			[
+				"ac",
+				"activateTab"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_js/app.js",
+			"settings":
+			{
+				"buffer_size": 3202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/find.php",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_css/style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4241,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 975,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/insert.php",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/dataview.php",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/conn.php",
+			"settings":
+			{
+				"buffer_size": 1601,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/pull.php",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Copy/WebWork/www/costSavings/_css/style.css",
+		"/E/Copy/WebWork/www/costSavings/_includes/data view",
+		"/C/Users/jasonw/AppData/Local/Temp/fz3temp-1/conn.php",
+		"/C/Users/jasonw/AppData/Local/Temp/fz3temp-1/potluck.php",
+		"/C/Program Files (x86)/Ampps/www/costSavings/index.html",
+		"/C/Program Files (x86)/Ampps/www/costSavings/_js/app.js",
+		"/C/Program Files (x86)/Ampps/www/costSavings/_includes/connection.php",
+		"/C/Program Files (x86)/Ampps/www/costSavings/connection.php",
+		"/E/Copy/WebWork/www/tryouts/flatnav/index.html",
+		"/E/Copy/WebWork/www/tryouts/flatnav/style.css",
+		"/E/Copy/WebWork/www/tryouts/flatnav/flatnav.html",
+		"/E/Copy/WebWork/www/tryouts/flatnav/css/app.css",
+		"/E/Copy/WebWork/www/potluck/potluck-new.html",
+		"/E/Copy/WebWork/www/potluck/json/potluck.json",
+		"/E/Copy/WebWork/www/potluck/js/app.js",
+		"/C/Users/jasonw/AppData/Local/Temp/fz3temp-1/full-width-potluck.php",
+		"/C/Users/jasonw/AppData/Local/Temp/fz3temp-1/style 2.css",
+		"/C/Users/jasonw/AppData/Local/Temp/fz3temp-1/style.css",
+		"/E/Copy/WebWork/www/potluck/php/submit.php",
+		"/C/Users/jasonw/Desktop/Ex_Files_Bootstrap3_AddInteractivity/Exercise Files/Bootstrap/css/custom.css",
+		"/C/Users/jasonw/Desktop/Ex_Files_Bootstrap3_AddInteractivity/Exercise Files/Bootstrap/index.html",
+		"/C/Users/jasonw/Desktop/Ex_Files_Bootstrap3_AddInteractivity/Exercise Files/Bootstrap/contact.html",
+		"/C/Users/jasonw/Desktop/Ex_Files_Bootstrap3_AddInteractivity/Exercise Files/Bootstrap/execs.html",
+		"/E/webwork/index.html",
+		"/E/webwork/sharepoint toggle.asp",
+		"//cepheus1/c$/inetpub/wwwroot/default.htm",
+		"/E/Copy/website pics/reveal.js/index.html",
+		"/C/Users/jasonw/Desktop/Ex_Files_JS_for_WD/Exercise Files/0502/start/contact.html",
+		"/C/Users/jasonw/Desktop/Ex_Files_JS_for_WD/Exercise Files/0408/start/about.html",
+		"/C/Users/jasonw/Desktop/Ex_Files_JS_for_WD/Exercise Files/0402/start/about.html",
+		"/C/Users/jasonw/Desktop/Ex_Files_JS_for_WD/Exercise Files/0405/end/about.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5",
+			"7.0",
+			"custom-background"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_js/app.js",
+					"settings":
+					{
+						"buffer_size": 3202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/find.php",
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_css/style.css",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "test.html",
+					"settings":
+					{
+						"buffer_size": 975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/insert.php",
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								100
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/dataview.php",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_includes/conn.php",
+					"settings":
+					{
+						"buffer_size": 1601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 72.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_includes/pull.php",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
